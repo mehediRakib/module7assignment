@@ -35,4 +35,11 @@ router.get('/pcRead',productController.read);
 router.get('/pcDelete',productController.delete);
 router.get('/pcUpdate',productController.update)
 
+// router.get('*',(req,res)=>{
+//     res.status(404).json({
+//         status:404
+//     })
+// })
+
+
 module.exports=router;
